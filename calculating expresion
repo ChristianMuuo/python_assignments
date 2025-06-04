@@ -1,0 +1,11 @@
+import numpy as np
+from scipy import integrate
+
+# Function z = x^2 + y^2
+def surface(x, y):
+    return x**2 + y**2
+
+# Double integral over 0 ≤ x ≤ 1 and 0 ≤ y ≤ 1
+volume, _ = integrate.dblquad(surface, 0, 1, lambda x: 0, lambda x: 1)
+print("Volume under surface z = x^2 + y^2 over [0,1]x[0,1]:", volume)
+
