@@ -1,0 +1,18 @@
+d) Difference Between Compiled and Interpreted Languages
+Compiled Languages:
+
+Translated entirely into machine code before execution using a compiler.
+
+Executed faster because it's pre-compiled.
+
+Examples: C, C++, Go.
+
+Interpreted Languages:
+
+Translated line-by-line at runtime by an interpreter.
+
+Easier to debug but generally slower in execution.
+
+Examples: Python, JavaScript.
+
+✅ Python is an interpreted language. Its source code is executed line-by-line by the Python interpreter (though it compiles to bytecode internally)
